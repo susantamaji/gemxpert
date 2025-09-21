@@ -28,7 +28,7 @@ function Navbar() {
 
                     {/* Dropdown on Hover */}
                     <li
-                        className="relative cursor-pointer hover:text-gray-800"
+                        className="relative cursor-pointer hover:text-gray-800 "
                         onMouseEnter={() => setHoverColor(true)}
                         onMouseLeave={() => setHoverColor(false)}
                     >
@@ -37,7 +37,7 @@ function Navbar() {
                         </div>
 
                         {hoverColor && (
-                            <div className="absolute top-8 left-0 bg-white shadow-lg rounded-md w-40 py-2">
+                            <div className="absolute top-8 left-0 z-50 bg-white shadow-lg rounded-md w-40 py-2">
                                 <a className="block px-4 py-2 hover:bg-gray-100">Warm Colors</a>
                                 <a className="block px-4 py-2 hover:bg-gray-100">Cool Colors</a>
                             </div>
