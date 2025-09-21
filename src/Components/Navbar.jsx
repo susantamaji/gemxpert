@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <div className="">
             {/* Navbar */}
-            <nav className="flex items-center justify-between px-6 py-4 shadow-md bg-[#e4b416] text-white">
+            <nav className="flex items-center justify-between px-6 py-4 shadow-md bg-[#2985da] text-white">
                 {/* Logo */}
                 <h1 className="text-2xl font-bold">
                     <span className="text-red-500">gemx</span>
