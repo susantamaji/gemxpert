@@ -130,7 +130,7 @@ function Navbar() {
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <ul className="p-6 space-y-4 flex flex-col font-bold">
+        <ul className="p-6 space-y-4 flex flex-col font-bold mt-4">
           <NavLink
             to="/"
             onClick={() => setMenuOpen(false)}

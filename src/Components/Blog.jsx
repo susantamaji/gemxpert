@@ -49,12 +49,12 @@ function Blog() {
         </div>
       </section>
 
-      <div className="h-[500px] bg-gradient-to-br from-blue-100 to-white py-16 px-4 md:px-10">
+      <div className="h-full bg-gradient-to-br from-blue-100 to-white py-16 px-4 md:px-10">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-[rgb(72,202,255)] rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full"
+              className="bg-[rgb(8,64,86)] rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full"
             >
               <img
                 src={card.image}
